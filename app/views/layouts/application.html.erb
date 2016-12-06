@@ -7,7 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <header>
+    <nav>
+      <ul>
+        <li><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'Alphabetized', alphabetized_path %></li>
+        <li><%= link_to 'Missing e-mail', missing_email_path %></li>
+      </ul>
+    </nav>
+  </header>
 <%= yield %>
 
 </body>
