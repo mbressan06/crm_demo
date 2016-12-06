@@ -2,4 +2,9 @@
   <h2><%= customer.full_name %></h2>
   <p><strong>Phone Number:</strong> <%= customer.phone_number %></p>
   <p><strong>E-mail:</strong> <%= customer.email %></p>
+  <% if customer.province.present? %>
+    <p><strong>Province:</strong> <%= customer.province.name %></p>
+  <% else %>
+   <p><strong>Province:</strong> None</p>
+  <% end %>
 </div>
