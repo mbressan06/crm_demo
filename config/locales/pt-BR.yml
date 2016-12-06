@@ -1,8 +1,11 @@
 pt-BR:
   active_admin:
+    customer:
+      province: Região
+      full_name: Nome completo
     dashboard: "Painel Administrativo"
     dashboard_welcome:
-      welcome: "Bem vindo ao Active Admin. Esta é a página de painéis padrão."
+      welcome: "Bem vindo ao MusicMaker Admin. Esta é a página de painéis padrão."
       call_to_action: "Para adicionar seções ao painel, verifique 'app/admin/dashboard.rb'"
     view: "Visualizar"
     edit: "Editar"
@@ -124,7 +127,7 @@ pt-BR:
         resend_unlock_instructions: "Reenviar instruções de desbloqueio"
         resend_confirmation_instructions: "Reenviar instruções de confirmação"
     unsupported_browser:
-      headline: "O ActiveAdmin não oferece suporte ao Internet Explorer versão 8 ou inferior."
+      headline: "O MusicMakerAdmin não oferece suporte ao Internet Explorer versão 8 ou inferior."
       recommendation: "Nós recomendamos atualizar para a última versão do <a href=\"http://windows.microsoft.com/ie\">Internet Explorer</a>, <a href=\"https://chrome.google.com/\">Google Chrome</a>, ou <a href=\"https://mozilla.org/firefox/\">Firefox</a>."
       turn_off_compatibility_view: "Se você está usando o IE 9 ou superior, <a href=\"http://windows.microsoft.com/pt-BR/windows7/webpages-look-incorrect-in-Internet-Explorer\">desligue o \"Modo de Exibição de Compatibilidade\"</a>."
     access_denied:
